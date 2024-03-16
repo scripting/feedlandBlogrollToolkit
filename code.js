@@ -1,15 +1,14 @@
 const appConsts = {
-	title: "Chuck's Blogroll",
+	title: "Test Blogroll",
+	urlBlogrollOpml: "https://feedland.social/opml?screenname=davewiner&catname=blogroll",
+	urlFeedlandViewBlogroll: "https://feedland.social/?username=davewiner&catname=blogroll", //3/13/24 by DW
 	idWhereToAppend: "idBlogrollContainer",
-	urlFeedlandServer: "https://feedland.social/",
-	urlSocketServer: "wss://feedland.social/",
-	urlBlogrollOpml: "https://feedland.com/opml?screenname=cagrimmett&catname=blogroll",
-	urlFeedlandViewBlogroll: "https://feedland.com/?username=cagrimmett&catname=blogroll", 
 	maxItemsInBlogroll: 40,
 	blogrollDisplayedCallback: function () {
 		$(".divPageBody").css ("display", "block");
 		}
 	};
 function startup () {
+	console.log ("startup");
 	blogroll (appConsts);
 	}
