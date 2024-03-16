@@ -1,7 +1,7 @@
-const appConsts = {
+const options = {
 	title: "Test Blogroll",
 	urlBlogrollOpml: "https://feedland.social/opml?screenname=davewiner&catname=blogroll",
-	urlFeedlandViewBlogroll: "https://feedland.social/?username=davewiner&catname=blogroll", //3/13/24 by DW
+	urlFeedlandViewBlogroll: "https://feedland.social/?username=davewiner&catname=blogroll", 
 	idWhereToAppend: "idBlogrollContainer",
 	maxItemsInBlogroll: 40,
 	blogrollDisplayedCallback: function () {
@@ -10,5 +10,5 @@ const appConsts = {
 	};
 function startup () {
 	console.log ("startup");
-	blogroll (appConsts);
+	blogroll (options);
 	}
