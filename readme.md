@@ -58,7 +58,7 @@ Here's a list of the options you can add to the object you pass into the blogrol
 
 ### Notes
 
-Copy whatever styles you need in your application from the demo app's styles.css file.
+Copy whatever styles you need in your application from the demo app's <a href="https://github.com/scripting/feedlandBlogrollToolkit/blob/main/styles.css">styles.css</a> file.
 
 This toolkit is MIT-licensed, and for now at least, the blogroll-specific code is <i>not</i> released as open source. 
 
@@ -67,4 +67,6 @@ I can't accept pull requests because I edit the code in an outliner, that's <a h
 So the best thing to do when you spot a mistake is flag it as an <a href="https://github.com/scripting/feedlandBlogrollToolkit/issues">issue</a> in the repo, point to the code in question if that's helpful, and I'll thank you and make the fix myself.
 
 And if you want to add a feature and have it included in this distribution, post an <a href="https://github.com/scripting/feedlandBlogrollToolkit/issues">issue</a> and let's talk about it. ;-)
+
+Dave Winer, March 2024
 
